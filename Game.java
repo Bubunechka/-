@@ -11,7 +11,7 @@ public class Game{
 // 1. Делаем выбор
   
   public boolean action(boolean input){
-    if(boolean input = true){
+    if(input = true){
       System.out.println("Новая игра");
     } else{
       System.out.println("Выход из игры");
