@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Game{
 
@@ -22,22 +23,38 @@ public class Game{
   // 2. Делаем список слов
   
   List<String> listWords = new ArrayList<>();
-        words.add("человек");
-        words.add("день");
-        words.add("место");
+        listWords.add("человек");
+        listWords.add("день");
+        listWords.add("место");
         // Добавьте остальные слова в список
  //List<String> list = List.of("элемент1", "элемент2", "элемент3", "элемент4", "элемент5");
 
 // 3. Делаем рандомную выборку
 
 Random random = new Random();
-Strig randomWord = listWords.get(random.nextInt(list.size()));
+//Strig randomWord = listWords.get(random.nextInt(list.size()));
+
+int randomIndex = random.nextInt(myList.size());  // Случайный индекс элемента в списке
+        int randomElement = myList.get(randomIndex);  // Случайный элемент
 
 // 4. "сохраняем" выбранное слово, которое будем разгадывать 
+// Преобазуем слово по букве и записывам в массив:
 
-public void changeVord(words){
-  ???
-}
+List<Integer> wordsArray = new ArrayList<>();  // Пустой массив для записи элементов
+ for (int i = 0; i < randomElementString.length(); i++) {
+            int digit = Character.digit(randomElementString.charAt(i), 10);
+            myArray.add(digit);
+        }
+
+//5. "Введите букву" - начинаем считывать то, что вводит человек
+
+Scanner scanner = new Scanner (System.in);
+System.out.print("Введите строку: ");
+String input = scanner.nextLine();  // Считываем строку с консоли
+
+
+//6. Сравниваем то, что пишет человек с разделенным рандомно выбранным словом
+
 
 
 // ИНФО:
