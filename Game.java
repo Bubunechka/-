@@ -10,7 +10,7 @@ public class Game{
 
 // 1. Делаем выбор
   
-  public action(boolean input){
+  public boolean action(boolean input){
     if(boolean input = true){
       System.out.println("Новая игра");
     } else{
