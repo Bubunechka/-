@@ -3,12 +3,17 @@ import java.util.List;
 
 public class Game{
 
-  String newGame;
-  String out;
+  // String newGame = "да";
+  // String out = "нет";
+  boolean input = "да";
 
 
-  public action(){
-    if()
+  public action(boolean input){
+    if(boolean input = true){
+      System.out.println("Новая игра");
+    } else{
+      System.out.println("Выход из игры");
+    }
   }
 
 
