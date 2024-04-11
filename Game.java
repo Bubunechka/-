@@ -49,11 +49,31 @@ List<Integer> wordsArray = new ArrayList<>();  // Пустой массив дл
 //5. "Введите букву" - начинаем считывать то, что вводит человек
 
 Scanner scanner = new Scanner (System.in);
-System.out.print("Введите строку: ");
+System.out.print("Введите букву: ");
 String input = scanner.nextLine();  // Считываем строку с консоли
+// int value = scanner.nextInt();
 
+// 6. Сравниваем значения
+// if (array[index] == value) {
+//             System.out.println("Элемент под индексом " + index + " равен " + value);
+//         } else {
+//             System.out.println("Элемент под индексом " + index + " не равен " + value);
+//         }
 
-//6. Сравниваем то, что пишет человек с разделенным рандомно выбранным словом
+ boolean found = false;  // Флаг для отслеживания нахождения значения в массиве
+
+for(i > 0; i < array.length, i++){
+  if (array[i] == value){
+    foung = true;
+    break;
+  }
+}
+
+if(found){
+  System.out.println("Буква найдена верно " + input);
+} else{
+  System.out.println("Ошибка");
+}
 
 
 
