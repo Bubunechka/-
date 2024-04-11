@@ -8,6 +8,8 @@ public class Game{
   boolean input = "да";
 
 
+// 1. Делаем выбор
+  
   public action(boolean input){
     if(boolean input = true){
       System.out.println("Новая игра");
@@ -17,7 +19,7 @@ public class Game{
   }
 
 
-  // 1. Делаем список слов
+  // 2. Делаем список слов
   
   List<String> listWords = new ArrayList<>();
         words.add("человек");
@@ -26,12 +28,12 @@ public class Game{
         // Добавьте остальные слова в список
  //List<String> list = List.of("элемент1", "элемент2", "элемент3", "элемент4", "элемент5");
 
-// 2. Делаем рандомную выборку
+// 3. Делаем рандомную выборку
 
 Random random = new Random();
 Strig randomWord = listWords.get(random.nextInt(list.size()));
 
-// 3. "сохраняем" выбранное слово, которое будем разгадывать 
+// 4. "сохраняем" выбранное слово, которое будем разгадывать 
 
 public void changeVord(words){
   ???
