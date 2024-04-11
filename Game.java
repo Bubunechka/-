@@ -7,6 +7,11 @@ public class Game{
   String out;
 
 
+  public action(){
+    if()
+  }
+
+
   // 1. Делаем список слов
   
   List<String> listWords = new ArrayList<>();
